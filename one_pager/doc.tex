@@ -1,0 +1,126 @@
+\documentclass{article}
+
+% use Times
+\usepackage{times}
+% For figures
+\usepackage{graphicx} % more modern
+%\usepackage{epsfig} % less modern
+\usepackage{subfigure}
+% For color
+\usepackage{color}
+
+% For citations
+\usepackage{natbib}
+
+% For algorithms
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+\usepackage{fullpage}
+\usepackage{hyperref}
+\usepackage{authblk}
+
+% Packages from the older tex file
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{bbm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Header for thm and def %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theorem Styles
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+% Definition Styles
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\newtheorem{remark}{Remark}
+%\renewcommand{\qedsymbol}{$\blacksquare$}
+%%%%%%%%%%%%%%%%%%%%
+%%% New commands %%%
+%%%%%%%%%%%%%%%%%%%%
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{hyperref}
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\theHalgorithm}{\arabic{algorithm}}
+\newcommand{\grad}{\nabla}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\renewcommand{\P}{\mathbb P}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Header for thm and def %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Theorem Styles
+\newtheorem{assump}{}
+\renewcommand{\theassump}{Assumption~\arabic{assump}}
+%\renewcommand{\qedsymbol}{$\blacksquare$}
+
+% Packages hyperref and algorithmic misbehave sometimes.  We can fix
+% this with the following command.
+\newcommand{\bG}{\boldsymbol{G}}
+\newcommand{\be}{\boldsymbol{e}}
+\newcommand{\bb}{\textbf{\textsf{b}}}
+\newcommand{\bC}{\boldsymbol{C}}
+\newcommand{\blam}{\boldsymbol{\lambda}}
+\newcommand{\blamt}{\boldsymbol{\lambda_t}}
+\newcommand{\bK}{\textbf{\textsf{K}}}
+\newcommand{\bI}{\boldsymbol{I_d}}
+\newcommand{\bSig}{\boldsymbol{\Sigma}}
+\newcommand{\bLam}{\boldsymbol{\Lambda}}
+\newcommand{\bL}{\boldsymbol{L}}
+\newcommand{\bR}{\boldsymbol{R}}
+\newcommand{\bt}{\boldsymbol{t}}
+\newcommand{\bM}{\boldsymbol{M}}
+\newcommand{\bO}{\boldsymbol{O}}
+\newcommand{\bD}{\boldsymbol{D}}
+\newcommand{\bx}{\boldsymbol{x}}
+\newcommand{\bX}{\boldsymbol{X}}
+\newcommand{\bY}{\boldsymbol{Y}}
+\newcommand{\bA}{\boldsymbol{A}}
+\newcommand{\bQ}{\boldsymbol{Q}}
+\newcommand{\bB}{\boldsymbol{B}}
+\newcommand{\bN}{\boldsymbol{N}}
+\newcommand{\bU}{\boldsymbol{U}}
+\newcommand{\bKc}{\boldsymbol{K^c}}
+\newcommand{\bmu}{\boldsymbol{\mu}}
+\newcommand{\prox}{\mbox{\textbf{prox}}}
+%\newcommand{\E}{\mathbb{E}}
+%\newcommand{\R}{\mathbb{R}}
+\newcommand{\bW}{\boldsymbol{W}}
+\newcommand{\bPsi}{\boldsymbol{\Psi}}
+\newcommand{\bPhi}{\boldsymbol{\Phi}}
+\newcommand{\bdM}{\boldsymbol{dM_t}}
+
+\newcommand{\footremember}[2]{%
+    \footnote{#2}
+    \newcounter{#1}
+    \setcounter{#1}{\value{footnote}}%
+}
+\newcommand{\footrecall}[1]{%
+    \footnotemark[\value{#1}]%
+}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+
+\title{Concours G\'en\'eration Blockchain : One-pager d'introduction}
+
+\author[1]{Massil Achab \& Mastane Achab, Ecole Polytechnique}
+
+\renewcommand\Affilfont{\itshape\small}
+\begin{document}
+
+\maketitle
+
+\section*{DAML: Distributed Art Market Ledger}
+
+\subsection*{Contexte et identification du besoin}
+
+\subsection*{Description de la solution}
+
+
+\end{document}
