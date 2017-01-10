@@ -8,6 +8,7 @@
 \usepackage{subfigure}
 % For color
 \usepackage{color}
+\usepackage[utf8]{inputenc}  
 
 % For citations
 \usepackage{natbib}
@@ -16,7 +17,7 @@
 \usepackage{algorithm}
 \usepackage{algorithmic}
 
-\usepackage{fullpage}
+%\usepackage{fullpage}
 \usepackage{hyperref}
 \usepackage{authblk}
 
@@ -116,16 +117,24 @@
 
 \maketitle
 
-\section*{DAML: Distributed Art Market Ledger}
+\section*{Energy retail market}
 
 \subsection*{Contexte et identification du besoin}
-Le march\'e de l'art est le lieu d'\'echanges d'articles de grande valeur dont la provenance est prouv\'ee à l'aide certificat et de reçus qui peuvent être facilement perdus ou falsifi\'es.
-La blockchain est un registre distribu\'e public qui permet de suivre la provenance d'un article de façon plus robuste que ne le peut le papier. \\
-Le cadre usuel de la blockchain concerne les objets dont l'identité est invariable (ou immuable), l'usage de puces RFID peut être une solution à ce problème. \\
-Lire \url{http://www.coindesk.com/everledger-announces-partnership-vastari-combat-art-fraud/} \\
-et \url{http://blog.vastari.com/post/144351319189/the-fine-line-between-transparency-and}
+Le domaine de l'\'energie a connu et conna\^it toujours de nombreuses \'evolutions, \'evolutions que le march\'e de l'\'energie met cependant plus de temps \`a assimiler.
+Depuis quelques ann\'ees, le citoyen lambda peut installer des systèmes de production d'\'energie (dans la majorit\'e des cas, des panneaux solaires) \`a son domicile,
+et profiter de sa production ou la revendre, en France, \`a EDF. Il pourra bient\^ot stocker cette \'energie encore plus efficacement grâce aux batteries de nouvelle g\'en\'eration (comme la batterie pr\'esent\'ee l'\'et\'e dernier par Tesla).
+A l'ère de l'uberisation, on peut penser que les particuliers producteurs d'\'energie auront bient\^ot un accès au march\'e de l'\'energie et pourront y revendre leur production.
+Il faut dès \`a pr\'esent r\'efl\'echir \`a cette question, et d\'evelopper les solutions ad\'equates.
 
 \subsection*{Description de la solution}
-
+Le cadre de la blockchain se pr\^ete parfaitement \`a ce problème.
+Chaque batterie qui stocke de l'\'energe serait associ\'ee \`a un registre distribu\'e (distributed ledger),
+et permettra au citoyen lambda de consulter les sources d'\'energies des particuliers disponibles.
+Il pourra alors acheter une partie de cette \'energie, transaction qui sera alors enregistr\'ee sur le registre.
+On peut aussi imaginer des transferts d'\'energie entre producteurs d'\'energie :
+un producteur d'\'energie \`a Marseille pourra utiliser de l'\'energie \`a Paris pour recharger sa voiture \'electrique.
+Son cr\'edit en \'energie sera alors d\'ebit\'e de la quantit\'e r\'ecup\'er\'ee par sa voiture. \\
+Dans le cadre de ce projet, nous aimerions fournir une impl\'ementation d'une telle blockchain,
+et proposer une API regroupant les fonctions et informations que les batteries devront fournir.
 
 \end{document}
