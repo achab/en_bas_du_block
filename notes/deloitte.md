@@ -6,7 +6,7 @@
 
 # Difficulty
 
-- Link transactions on the blockchain with actual payment
+- Link transactions on the blockchain with actual payment -> advantage of energy exchange system ?
 
 # Smart hub idea
 
