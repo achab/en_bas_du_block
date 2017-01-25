@@ -1,0 +1,6 @@
+- les prosumers produisent de l'énergie à la maison
+- ils peuvent utiliser cette énergie, ou l'envoyer à d'autres utilisateurs du réseau
+- ils peuvent l'utiliser pour recharger leur voiture Tesla en ville, sur les bornes Autolib
+- dire que c'est un réseau blockchain normal
+- partenariat particulier avec Mairie de Paris
+- https://techcrunch.com/2017/01/22/energy-is-the-new-new-internet/
